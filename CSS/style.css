@@ -1,0 +1,479 @@
+/* NavBar */
+
+.hero{ 
+    padding: 80px; 
+}
+.NavBar {
+    position: fixed;  
+    top: 0;           
+    left: 0;          
+    width: 100%;
+    background-color: #f5f3ff;      
+    z-index: 9999;    
+}
+.navbar-content h2{
+    font-size: 20px;
+}
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.nav-left-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-left-img img{
+    width: 5%;
+    background-color: blueviolet;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+}
+.nav-links li a {
+    color: black;
+}
+.nav-links li a.link{
+    color: blueviolet;
+}
+
+/*HERO SECTION  */
+
+*{
+    box-sizing: border-box;  
+}
+.header{
+    background-color: white;
+}
+.header .container{
+    width: 80%;
+    margin: auto;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+.card-img {
+    width: 48%;
+    padding: 20px;
+    border: 2px solid beige;
+    border-radius: 25px;
+    position: relative;
+}
+.container .card-img img{
+    width: 100%;
+    border-radius: 18px;
+}
+
+.img-cont{
+    position: absolute;
+    top: 35px;
+    left: 35px;
+} 
+.img-cont span{
+    background-color: blueviolet;
+    color: white;
+    padding:  10px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.header-content{
+    width: 50%;
+}
+h1{
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+    font-size:16px;
+    text-align: left;
+}
+.header-content .information span{
+    background-color: #a855f7;
+    color: white;
+    margin: 10px ;
+    padding: 10px ;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.header-content h1 {
+    font-size: 40px;
+}
+.header-content p {
+    font-size: 20px;
+}
+.price {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.price h2 {
+    font-size: 35px;
+}
+.price span {
+    background-color:bisque;
+    color: red;
+    padding: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.button button,.button2 button {
+    width: 100%;
+    padding: 18px;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button button {
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+    margin: 10px;
+}
+.button img{
+    width: 20px;
+}
+.button2 img{
+    width: 20px;
+}
+.button2 button {
+    color: black;
+    background-color: white;
+    border: 2px solid whitesmoke;
+}
+
+/* key-feature-style */
+
+.ground{
+    background-color: #f5f3ff;
+    padding: 40px;
+}
+.key-feature {
+    text-align: center;
+    padding: 30px;
+}
+h2{
+    font-size: 36px;
+    font-family: sans-serif;
+}
+.key-feature p{
+    font-size: 20px;
+}
+.container1 {
+    margin: auto;
+    width: 80%;
+}
+.inner1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+    justify-content: center;
+}
+.card {
+    background-color:white;
+    border-radius: 20px;
+    padding: 30px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+.card .card-img {
+    width: 60px;
+    background-color: rgb(245, 102, 211);
+    border-radius: 15px;
+    padding: 12px;
+}
+.card .card-img1 img{
+    background-color: rgb(196, 210, 225);
+    width: 60px;
+    border-radius: 15px;
+    padding: 12px;   
+}
+.card .card-img2 img{
+    background-color: rgb(164, 226, 164);
+    width: 60px;
+    border-radius: 15px;
+    padding: 12px;
+}
+.card .card-img3 img{
+    background-color: rgb(211, 192, 124);
+    width: 60px;
+    border-radius: 15px;
+    padding: 12px;
+}
+.card .card-img4 img{
+    background-color: rgb(144, 189, 216);
+    width: 60px;
+    border-radius: 15px;
+    padding: 12px;
+}
+.card .card-img5 img{
+    background-color: rgb(227, 178, 178);
+    width: 60px;
+    border-radius: 15px;
+    padding: 12px;
+}
+.card-img img {
+    width: 100%;
+}
+.key-feature span {
+    color: blueviolet;
+}
+.card h4 {
+    color: blueviolet;
+    font-size: 14px;
+}
+.features {
+    font-size: 16px;
+}
+.features h3 {
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}
+.features p {
+    color: grey; 
+}
+.rate h3 {
+    color: blueviolet;
+    font-size: 24px;
+}
+.rate p {
+    color: gray;
+    font-size: 14px;
+}
+.cart{
+    background-color:blueviolet ;
+    width: 100%;
+    border: 20px solid blueviolet;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-cart{
+    color: white;
+}
+.left-cart h3{
+    font-size: 30px;
+}
+.right-cart button{
+    background-color: white;
+    font-size: 15px;
+    color: rgb(125, 16, 226);
+    border: 20px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* Reviews Section */
+
+ .Reviews_section h2,p{
+    text-align: center;
+}
+.Reviews_section p{
+    font-size: 20px;
+}
+.Reviews_section span{
+    color: blueviolet;
+}
+.container2{
+    width: 50%;
+    margin: auto;
+}
+.customer p{
+    font-size: 18px;
+}
+.customer-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.customer-img img{
+    width: 65px;
+    border-radius: 50px;
+}
+.img-star {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.img-star h5{
+    margin: 5px;
+}
+.img-star img{
+    width: 2%;
+}
+ .but button{
+    background-color: blueviolet;
+    color: white;
+    border: solid 20px blueviolet;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: 15px;
+    padding: 5px;
+    cursor: pointer;
+ } 
+
+/* <!-- Related Products Section --> */
+
+.ground2{
+    background-color: #f5f3ff;
+    padding: 20px;
+}
+.products h2{
+    text-align: center;
+}
+.products p{
+    font-size: 20px;
+}
+.products span{
+    color: blueviolet;
+}
+.container3{
+    width: 80%;
+    margin:  auto;
+}
+.Related{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.img-prod img{
+    width:90%;
+}
+.img-prod{
+    position: relative;
+}
+.accessory{
+    background-color: rgb(152, 210, 169);
+    border: solid 10px rgb(152, 210, 169) ;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:8px;
+}
+.img-prod span{
+    color: white;
+}
+.essential{
+    background-color: rgb(38, 221, 93);
+    border: solid 10px rgb(38, 221, 93) ;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:8px;
+}
+.power{
+    background-color: rgb(135, 177, 221);
+    border: solid 10px rgb(135, 177, 221) ;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:8px;
+}
+.safety{
+    background-color:orangered;
+    border: solid 10px orangered ;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:8px;
+}
+.prod-cont p{
+    text-align: left;
+}
+.butt1{
+    display: flex;
+    align-items: end;
+}
+button{
+    background-color: blueviolet;
+    color: white;
+    border: solid 20px blueviolet;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+.but222 button{
+    background-color:#f5f3ff;
+    color: blueviolet;
+    border: solid 2px blueviolet;
+    border-radius: 55px;
+    font-weight: bold;
+    padding: 30px;
+    margin-left:42%;
+    cursor: pointer
+}
+/* footer */
+
+.ground3{
+    background-color: rgb(3, 3, 49);
+    padding: 40px;
+
+}
+.container4{
+    width: 80%;
+    margin: auto;
+}
+.footer11{
+    display: flex;
+    align-items: center;
+}
+.footer-img img{
+    width: 5%;
+    background-color: blueviolet;
+}
+
+.footer-cont h3{
+    color: white;
+}
+.footer p{
+    color: white;
+    text-align: left;
+}
+.footer-links img{
+    width: 2%;
+    background-color:rgb(3, 3, 49);
+    border-radius: 20px;
+}
+.footer-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-card{
+    color: white;
+    cursor: pointer;
+}
+.footer-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-right img{
+    width: 5%;
+}
